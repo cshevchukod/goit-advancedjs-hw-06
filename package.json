@@ -5,7 +5,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write src/**/*.ts"
+  },
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.4"
   }
 }
