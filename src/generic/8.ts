@@ -18,7 +18,7 @@ type Form = {
   errors: Errors;
 };
 
-// Реалізуйте Params так, щоб унеможливити поле 'errors' з типу Form
+// Реалізуйте Params
 type Params = Omit<Form, "errors">;
 
 export {};
